@@ -1,0 +1,34 @@
+#content li{
+	list-style: none;
+}
+nav ul{
+	list-style:none; 
+	display: inline-block;
+	margin: 0;
+	padding:0; 
+}
+nav li{
+	display: inline-block;
+}
+.pre a,
+.page a,
+.next a{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #ffaa00;
+	background: #FFF;
+	text-align: center;
+	color: #242424;
+	cursor: pointer;
+}
+.pre a,
+.next a{
+	color: #ffaa00;
+	background: #FFF;
+}
+.active a{
+	background: #fcb628;
+	color: #FFF;
+}
